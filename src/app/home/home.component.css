@@ -1,0 +1,252 @@
+
+/* #carouselExampleIndicators{
+    background: rgba(0,0,0,0.5);  
+}   */
+
+.carousel-indicators li{
+    width: 28px;
+    height: 6px;
+}
+
+.carousel-caption{
+    bottom: 40%;
+}
+
+.brands-name{
+    /* font-size: 110px; */
+    font-size: 70px;
+    font-family: prague;
+    font-weight: bolder;
+}
+
+/* Welcome to First Fiddle Section */
+
+.content-left{
+    padding-bottom: 60px;
+}
+
+.content-left a{
+    /* height: 66px; */
+    height: 47px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fbac29;
+    /* width: 40%; */
+    width: 29%; 
+    padding-top: 12px;
+    /* font-size: 26px; */
+    font-size: 17px;
+    color: white;
+    /* margin-bottom: 90px; */
+    margin-bottom: 45px;
+}
+
+.ml-1{
+    font-weight: bolder;
+    padding-top: 70px;
+    font-family: prague;
+    letter-spacing: 3px;
+    /* font-size: 50px; */
+    font-size: 35px;
+}
+.banner-content{
+    /* line-height: 41px; */
+    line-height: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    /* font-size: 22px; */
+    font-size: 15px;
+    padding-bottom: 50px;
+
+}
+
+.content-right img{
+    /* margin-left: 50px;
+    height: 585px; */
+    height: 370px;
+}
+
+.media-mention-section{
+    /* height: 750px; */
+
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.media-mention-content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.media-mention-content h1
+{
+    /* padding-top: 110px; */
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    /* font-size: 80px; */
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: prague;
+}
+
+.media-mention-content p
+{
+    /* font-size: 24px; */
+    /* font-size: 20px; */
+    font-size: 15px;
+    text-align: center;
+    /* line-height: 65px; */
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: white;
+    /* padding-top: 10px; */
+    padding-top: 5px;
+
+}
+
+.mtop
+{
+    /* height: 78px; */
+    height: 51px;
+    width: 16%;
+    /* margin-top: 93px; */
+    padding-top: 12px;
+    color: #fff;
+    /* font-size: 25px; */
+    font-size: 17px;
+    background-color: #fbac29;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 80px;
+}
+
+#carousel{
+    text-align: center;
+}
+
+.carousel-item .slide-box img{
+    /* height: 295px; */
+    height: 205px;
+    padding: 10px;
+    /* width: 22%; */
+    width: 24%;
+}
+.explore-section .heading h1{
+    /* font-size: 50px; */
+    font-weight: bolder;
+    /* padding-top: 80px; */
+    padding-top: 45px;
+    font-family: prague;
+    letter-spacing: 3px;
+}
+
+/* media query start */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .carousel-caption 
+    {
+        bottom: 7% !important;
+    }
+    .brands-name
+    {
+        font-size: 33px !important;
+    }
+
+/* Welcome to First Fiddle Section */
+
+    .banner-content
+    {
+        line-height: 30px;
+        letter-spacing: 1px;
+        word-spacing: -1px;
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .ml-1
+    {
+        padding-top: 30px;
+        font-family: prague;
+        letter-spacing: 1px;
+        font-size: 31px;
+        font-weight: bolder;
+    }
+    .content-left{
+        padding-bottom: unset;
+    }
+
+    .content-left a{
+        /* height: 51px; */
+        height: 47px; 
+        /* width: 75%; */
+        width: 29%; 
+        /* font-size: 17px; */
+        font-size: 17px;
+        margin-bottom: 45px;
+    }
+
+    .content-right{
+        padding-bottom: 30px;
+    }
+    .content-right img
+    {
+        width: 100%;
+        margin-left: unset !important; 
+        height: unset !important;
+    }
+
+/* MEDIA MENTIONS Section */
+    .media-mention-section {
+        height: 500px !important;
+    }
+
+    .media-mention-content{
+        margin-top: unset !important;
+        
+    }
+    .media-mention-content h1
+    {
+        padding-top: 49px !important;
+        color: #fff;
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: bolder;
+        font-family: Helvetica;;
+    }
+
+    .media-mention-content p {
+        font-size: 18px !important;
+        text-align: center;
+        line-height: 32px !important;
+        letter-spacing: 1px;
+        color: white;
+        padding-top: 10px !important;
+    }
+
+    .mtop
+    {
+        height: 50px !important;
+        width: 55% !important;
+        margin-top: 15px;
+        padding-top: 10px !important;
+    }
+
+    .media-mention-content .mtop{
+        font-size: 16px;
+        height: 47px !important;
+        width: 40% !important;
+        margin-top: 15px;
+        padding-top: 9px !important;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   
+}

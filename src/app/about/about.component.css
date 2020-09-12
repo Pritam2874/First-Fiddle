@@ -1,0 +1,191 @@
+.main-higlight{
+    position: relative;
+}
+
+.main-higlight{
+    position: relative;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    /* height: 1000px; */
+    width: 100%;
+}
+
+.main-higlight .our-story-head{
+    /* padding-top: 200px; */
+    padding-top: 65px;
+    text-align: center;
+    margin-top: 250px;
+    padding-bottom: 245px;
+}
+.main-higlight .our-story-head h1{
+    /* font-size: 124PX; */
+    font-size: 88PX;
+    font-weight: bolder;
+    font-family: prague;
+    color: #fff;
+}
+
+.main-higlight .our-story-head h2{
+    font-weight: 600;
+    font-family: prague;
+    color: #fff;
+    /* font-size: 54px; */
+    font-size: 35px;
+
+}
+
+/* Welcome to First Fiddle Section */
+
+.ml-1{
+    font-weight: bolder;
+    /* padding-top: 70px; */
+    padding-top: 50px;
+    font-family: prague;
+    /* letter-spacing: 3px;
+    font-size: 50px; */
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.banner-content{
+    /* line-height: 41px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 22px;
+    padding-bottom: 50px;
+    padding-left: 271px; */
+    
+    line-height: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-size: 17px;
+    padding-bottom: 48px;
+    padding-left: 160px;
+}
+
+.content-right img{
+    margin-top: 0px;
+    /* margin-left: 15px; */
+    /* height: 675px; */
+}
+
+/* Game Changer start */
+
+.game-changer-section{
+    background-image: url(/assets/img/gamebanner.jpg);
+    position: relative;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+}
+.media-mention-content{
+    padding-bottom: 45px;
+}
+
+.game-changer-section h1
+{
+    /* padding-top: 180px; */
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: prague;
+}
+
+.game-changer-section p
+{
+    /* font-size: 24px;
+    line-height: 65px;
+    padding-top: 10px; */
+    font-size: 18px;
+    text-align: center;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 0px;
+
+}
+
+
+/* media query start */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* Welcome to First Fiddle Section */
+
+    .banner-content
+    {
+        line-height: 30px;
+        letter-spacing: 1px;
+        word-spacing: -1px;
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .ml-1
+    {
+        padding-top: 30px;
+        font-family: prague;
+        letter-spacing: 1px;
+        font-size: 31px;
+        font-weight: bolder;
+    }
+
+    .content-left{
+        padding-bottom: unset;
+    }
+
+    .content-right{
+        padding-bottom: 30px;
+    }
+
+    .content-right img
+    {
+        width: 100%;
+        margin-left: unset !important; 
+        height: unset !important;
+    }
+
+    .main-higlight .our-story-head
+    {
+        padding-top: unset !important;
+        margin-top: 140px;
+    }
+
+    .main-higlight{
+        height: 400px !important;
+    }
+
+    .main-higlight .our-story-head h1{
+        font-size: 56PX;
+    }
+
+    .main-higlight .our-story-head h2{
+        font-size: 29px !important;
+    }
+    .banner-content{
+        padding-bottom: unset !important;
+        padding-left: unset !important;
+    }
+
+    .game-changer-section{        
+        height: 600px !important;
+    }
+
+    .game-changer-section h1{
+        padding-top: 88px;
+        color: #fff;
+        text-align: center;
+        font-size: 41px;
+        font-weight: bolder;
+        font-family: prague;
+    }
+    .game-changer-section p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 47px;
+        letter-spacing: 1px;
+        color: white;
+        padding-top: 10px;
+    }
+}

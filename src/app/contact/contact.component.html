@@ -1,0 +1,78 @@
+
+<section class="main-higlight" [ngStyle]="{'background' : 'url(assets/img/contact-new.jpg)'}">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+              <div class="our-story-head">
+                <h1 class="text-uppercase">contact us</h1>
+              </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section class="contact-with-us">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 contact-us-1">
+                <h4 class="text-uppercase">Send message</h4>
+                <form name="form" class="ng-pristine ng-invalid ng-touched" #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+                    <div class="form-group">
+                        <input class="form-control ng-pristine ng-invalid ng-touched" formcontrolname="name" name="name" placeholder="Name" type="text" ngModel>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="email" name="email" placeholder="Email" type="text" ngModel>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="phone" name="phone" placeholder="Phone" type="number" ngModel>
+                        <div class="invalid-feedback">
+                            <div>Phone is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="message" name="message" placeholder="Message" type="text" ngModel>
+                        <div class="invalid-feedback">
+                            <div>Message is required</div>
+                        </div>
+                    </div>
+                    <button class="btn btn-warning" type="submit">Submit</button><br><br>
+                </form>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-us-2">
+                <h4>CONTACT INFO</h4>
+                <strong style="color:#fcb21b">Address</strong>
+                <p> B6/22, 1st Floor, Safdarjung Enclave, New Delhi, INDIA</p>
+                <strong style="color:#fcb21b">For Franchise Enquiry</strong>
+                <p> 
+                    Mobile: 
+                    <b><a _ngcontent-fxv-c3="" href="tel:09313663486" style="color:#fcb21b"> +91 9313663486</a></b><br _ngcontent-fxv-c3=""> 
+                    Email: 
+                    <b><a href="mailto:franchise@firstfiddle.in" style="color:#fcb21b">franchise@firstfiddle.in</a></b>
+                </p>
+                <strong style="color:#fcb21b">For HR Enquiry</strong>
+                <p> 
+                    Mobile: 
+                    <b><a _ngcontent-fxv-c3="" href="tel:09313663486" style="color:#fcb21b"> +91 9999796366</a></b><br _ngcontent-fxv-c3=""> 
+                    Email: 
+                    <b><a href="mailto:franchise@firstfiddle.in" style="color:#fcb21b">careers@firstfiddle.in</a></b>
+                </p>
+                <strong style="color:#fcb21b">For Other Enquiry</strong>
+                <p> 
+                    Phone: 
+                    <b><a _ngcontent-fxv-c3="" href="tel:09313663486" style="color:#fcb21b"> 01141187447</a></b><br _ngcontent-fxv-c3=""> 
+                    Email: 
+                    <b><a href="mailto:franchise@firstfiddle.in" style="color:#fcb21b">customercare@firstfiddle.in</a></b><br>
+                    Open:
+                    <a>Monday – Saturday 10:30 – 19:30</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

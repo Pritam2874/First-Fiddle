@@ -1,0 +1,140 @@
+section{
+    background: #020306f0;
+    /* height: 150px; */
+    width: 100%;
+}
+
+section .footer-logo img{
+    /* padding: 80px; */
+    /* margin: 0 auto; */
+    /* padding: 138px; */
+    padding-top: 130px;
+    margin-left: 173px;
+}
+
+.footer-logo{
+    text-align: center;
+
+}
+
+section .content h1{
+    padding-top: 7% !important;
+    color: #ffad00;
+    font-family: 'prague';
+    /* font-size: 75px !important; */
+    font-size: 47px !important;
+    line-height: 50px;
+    padding-top: 17%;
+}
+section .content span{
+    font-family: 'prague';
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+section .content p{
+    color: #fff;
+    /* padding-top: 20px; */
+    font-size: 20px;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: Montserrat,sans-serif;
+}
+section .text-widget{
+    padding-top: 20px;
+    color:  #fff;
+}
+
+section .text-widget .foot-add{
+    padding-top: 20px;
+}
+
+section .text-widget strong, a{
+    color: #ffad00;
+}
+section .text-widget br{
+    color: #fff;
+}
+section .social-icons {
+    padding-top: 25px;
+    color: #ffad00;
+    margin-bottom: 80px;
+}
+section .social-icons a i{
+    /* font-size: 50px; */
+    font-size: 35px;
+}
+section .last-footer{
+    background-color: #000;
+    /* padding-top: 45px;
+    padding-bottom: 25px; */
+    padding-top: 30px;
+    padding-bottom: 12px;
+    color: #fff;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+section .last-footer p{
+    font-family: Montserrat,sans-serif;
+    /* font-size: 20px !important; */
+    font-size: 14px !important;
+}
+
+/* media query start */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    section .footer-logo a img{
+        width: 100%;
+    }
+
+    section .footer-logo{
+        height: 230px;
+        /* padding: 90px !important; */
+    }
+
+    section .content h1{    
+        font-size: 45px !important;
+        /* padding-top: 17% !important; */
+    }
+    section .content p{
+        padding-top: 3px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: Montserrat,sans-serif;
+    }
+
+    section .social-icons{
+        margin-bottom: 20px;
+    }
+
+    section .social-icons a i{
+        font-size: 35px;
+    }
+
+    section .footer-logo img{
+        padding: 100px;
+        margin: unset !important;
+    }
+    section .last-footer{
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+
+    section .last-footer p{
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   
+}

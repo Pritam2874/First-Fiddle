@@ -1,0 +1,79 @@
+<section>
+    <div class="container-fluid" *ngIf="contact_usfulldata" >
+        <div class="row" *ngFor="let contact_us of contact_usfulldata">
+            <div class="col-md-5 col-sm-5">
+                <div class="footer-logo text-center">
+                    <a href="">
+                        <img class="d-block" src="assets/img/ff-logo-02.png" alt="Five slide"> 
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-7">
+                <div class="content">
+                    <h1>CONTACT <span class="us">US</span> </h1>
+                    <p>{{contact_us.content}} <br>
+                        restaurants across india. We are truly committed to catering to the ever-changing cosmopolitan taste of the <br> 
+                        customer and revolutioning the F & B industry!
+                    </p>
+                </div>
+                <div class="text-widget">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>
+                                <strong>Address</strong><br>
+                                B6/22, 1st Floor, Safdarjung Enclave, New Delhi 110029, INDIA 
+                            </span>
+                        </div>
+                        <div class="col-md-6">
+                            <span><strong>Franchise Enquiry </strong><br> 
+                                Mobile: <a href="tel:09313663486"><b>+91 9313663486</b></a><br >
+                                Email: <a href="mailto:franchise@firstfiddle.in"><b>franchise@firstfiddle.in</b></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 foot-add">
+                            <span>
+                                <strong>HR Enquiry</strong><br>
+                                Mobile: <a href="tel:09313663486"><b>+91 9999796366</b></a><br >
+                                Email: <a href="mailto:franchise@firstfiddle.in"><b> careers@firstfiddle.in</b></a> 
+                            </span>
+                        </div>
+                        <div class="col-md-6 foot-add">
+                            <span><strong>Franchise Enquiry </strong><br> 
+                                Mobile: <a href="tel:09313663486"><b>+91 01141187447</b></a><br >
+                                Email: <a href="mailto:franchise@firstfiddle.in"><b>customercare@firstfiddle.in</b></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icons text-left">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf ="copyrightdata">
+            <div class="last-footer text-center">
+                <p *ngFor="let copyright of copyrightdata">
+                    {{copyright.content}}
+                    <!-- PRIVACY POLICY | TERMS AND CONDITIONS | BLOG --><br>
+                    COPYRIGHT © 2019 FIRST FIDDLE F&B PRIVATE LIMITED
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
