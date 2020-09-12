@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
       (
          data=>
          {
-           console.log(data);
+          //  console.log(data);
            this.resData=data;
            this.newsdata=this.resData.user;
            console.log(this.newsdata);
@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
          (
            data=>
            {
-             console.log(data);
+            //  console.log(data);
             this.mData=data;
             this.mediadata=this.mData.user;
             console.log(this.mediadata);
